@@ -2,10 +2,10 @@
 
 ## Contacts
 
-**E-mail:** ![trofimov@alexandr.by](mailto:trofimov@alexandr.by) \
-**Phone:** ![+7-950-020-19-18](tel:+7-950-020-19-18) \
-**GitHub:** ![Aleksandr-Trofimov](https://github.com/Aleksandr-Trofimov) \
-**Telegram:** ![@Aleksandr0159](https://t.me/@Aleksandr0159) \
+**E-mail:** [trofimov@alexandr.by](mailto:trofimov@alexandr.by) \
+**Phone:** [+7-950-020-19-18](tel:+7-950-020-19-18) \
+**GitHub:** [Aleksandr-Trofimov](https://github.com/Aleksandr-Trofimov) \
+**Telegram:** [@Aleksandr0159](https://t.me/@Aleksandr0159) \
 **Discord:** aleksandr0159 \
 
 ## About Me
@@ -46,8 +46,8 @@ return console.log(true);
 - RS Schools Course «JavaScript/Front-end» (stage1 in progress)
 - RS Schools Course «JavaScript/Front-end» (stage0)
 - JavaScript for kids (in progress)
-- ![Basics HTML & CSS] (https://stepik.org/cert/1597649)
-- ![Web technologies: entry level] (https://stepik.org/cert/1705980)
+- [Basics HTML & CSS] (https://stepik.org/cert/1597649)
+- [Web technologies: entry level] (https://stepik.org/cert/1705980)
 
 ## Languages
 
@@ -55,4 +55,4 @@ return console.log(true);
 - English (Pre-intermediate)
 - Spanish (Elementary)
 
-![![RSSchool](rs_school_icon.svg)](https://rs.school/)
+[[RSSchool](rs_school_icon.svg)](https://rs.school/)
