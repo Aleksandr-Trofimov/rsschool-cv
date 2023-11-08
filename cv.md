@@ -6,7 +6,7 @@
 **Phone:** +7-950-020-19-18 \
 **GitHub:** [Aleksandr-Trofimov](https://github.com/Aleksandr-Trofimov) \
 **Telegram:** [@Aleksandr0159](https://t.me/@Aleksandr0159) \
-**Discord:** aleksandr0159 \
+**Discord:** aleksandr0159
 
 ## About Me
 
@@ -25,19 +25,17 @@ In real, I just start to learn Frontend development and I really want to become 
 
 The function that determines if arrays equal to
 
-\```
-function areArraysSame(x, y) {
-for (var i = 0; i < x.length; i++) {
-if (x.length !== y.length) {
-return console.log(false);
-} else if (x[i] !== y[i]) {
-return console.log(false);
-} else {
-return console.log(true);
-}
-}
-}
-\```
+    		function areArraysSame(x, y) {
+    			for (var i = 0; i < x.length; i++) {
+    				if (x.length !== y.length) {
+    					return console.log(false);
+    				} else if (x[i] !== y[i]) {
+    					return console.log(false);
+    				} else {
+    					return console.log(true);
+    				}
+    			}
+    		}
 
 ## Experience
 
