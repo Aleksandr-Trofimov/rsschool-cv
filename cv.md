@@ -55,4 +55,4 @@ return console.log(true);
 - English (Pre-intermediate)
 - Spanish (Elementary)
 
-[[RSSchool](rs_school_icon.svg)](https://rs.school/)
+[![RSSchool](rs_school_icon.svg)](https://rs.school/)
