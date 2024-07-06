@@ -1,0 +1,14 @@
+.main__wrapper {
+	display: flex;
+	width: 100%;
+}
+
+.left-column {
+	background-color: rgb(170, 255, 0);
+	width: 30%;
+}
+
+.right-column {
+	background-color: #e07f1f;
+	width: 70%;
+}
