@@ -15,7 +15,7 @@
 					</div>
 					<div class="header__intro">
 						<h1 class="header__title">Trofimov Aleksandr</h1>
-						<h3 class="header__subtitle">Front-End developer</h3>
+						<h3 class="header__subtitle subtitle">Front-End developer</h3>
 					</div>
 				</div>
 			</header>
@@ -23,56 +23,102 @@
 				<div class="main__wrapper">
 					<div class="left-column">
 						<section class="contacts">
-							<h2 class="contacts__title">Contacts</h2>
-							<ul class="contacts__list">
+							<h2 class="contacts__title section__title">Contacts</h2>
+							<ul class="contacts__list section__list">
 								<li class="contacts__item">
-									<p class="contacts__item-text">trofimov@alexandr.by/p></p>
+									<p class="contacts__item-text contacts__mail"><a href="mailto:trofimov@alexandr.by" target="_blank">trofimov@alexandr.by</a></p>
 								</li>
 								<li class="contacts__item">
-									<p class="contacts__item-text">https://github.com/Aleksandr-Trofimov</p>
+									<p class="contacts__item-text contacts__github">
+										<a href="https://github.com/Aleksandr-Trofimov" target="_blank">github.com/Aleksandr-Trofimov</a>
+									</p>
 								</li>
 								<li class="contacts__item">
-									<p class="contacts__item-text">aleksandr0159</p>
+									<p class="contacts__item-text contacts__telegram"><a href="https://t.me/Aleksand0159" target="_blank">t.me/Aleksand0159</a></p>
 								</li>
 							</ul>
 						</section>
 						<section class="education">
-							<h2 class="education__title">Education</h2>
-							<h3>University:</h3>
-							<p class="educayion__main"></p>
-							<h3>Courses:</h3>
-							<p>RS Schools Course «JavaScript/Front-end» (stage0)</p>
-							<p>RS Schools Course «JavaScript/Front-end» (stage1)</p>
-							<p>FreeCodeCamp</p>
+							<h2 class="education__title section__title">Education</h2>
+							<h3 class="education__subtitle subtitle">University:</h3>
+							<p class="education__main">The Herzen State Pedagogical University of Russia Herzen University, teacher</p>
+							<h3 class="education__subtitle subtitle">Courses:</h3>
+							<ul class="education__courses-list section__list">
+								<li>
+									<p class="education__course">
+										<a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">RS Schools (stage0)</a>
+									</p>
+								</li>
+								<li>
+									<p class="education__course"><a href="https://rs.school/courses/javascript-ru" target="_blank">RS Schools (stage1)</a></p>
+								</li>
+								<li>
+									<p class="education__course"><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></p>
+								</li>
+							</ul>
 						</section>
 						<section class="languages"></section>
-						<h2 class="languages__title">Languages</h2>
-						<p>Russian(native)</p>
-						<p>English(B1)</p>
+						<h2 class="languages__title section__title">Languages</h2>
+						<ul class="languages__list section__list">
+							<li><p class="languages__list-item">Russian(native)</p></li>
+							<li><p lass="languages__list-item">English(B1)</p></li>
+						</ul>
 					</div>
 					<div class="right-column">
 						<section class="about">
-							<h2 class="about__title">About me:</h2>
-							<p></p>
+							<h2 class="about__title section__title">About me:</h2>
+							<p class="about__description">
+								Hi, everyone! This is already my second attempt at the RS Schools course (stage 0) and I hope that this time I will have enough
+								strength and time to finish it and eventually become a front-end developer and a valuable team member. Over the past year, I have
+								learned a lot and I hope my knowledge will help me achieve my goal. And, of course, I will always be happy to help. Good luck and
+								perseverance to us! &#128522;
+							</p>
 						</section>
 						<section class="skills">
-							<h2 class="skills__title">Skills:</h2>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
+							<h2 class="skills__title section__title">Skills:</h2>
+							<ul class="skills__list section__list">
+								<li><p>HTML5</p></li>
+								<li><p>CSS3, SASS</p></li>
+								<li><p>JavaScript Basics</p></li>
+								<li><p>Git, GitHub</p></li>
+								<li><p>Figma</p></li>
+							</ul>
 						</section>
 						<section class="example">
-							<h2 class="example__title">Code example:</h2>
+							<h2 class="example__title section__title">Code example:</h2>
+							<p class="example__description">
+								Fake Binary: Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the
+								resulting string.
+							</p>
 							<div>
-								<pre><code></code></pre>
+								<pre>
+									<code>
+	function fakeBin(x) {
+	 let y = x.split("");
+	 for (let i = 0; i < x.length; i += 1) {
+	  if (y[i] < 5) {
+	 	y[i] = 0;
+	  } else {
+	 	y[i] = 1;
+	  }
+	 }
+	 let result = y.join("");
+	 return result;
+	}
+									</code>
+								</pre>
 							</div>
 						</section>
 					</div>
 				</div>
 			</main>
-			<footer></footer>
+			<footer>
+				<div class="footer__wrapper">
+					<a href="https://github.com/Aleksandr-Trofimov" target="_blank" class="footer__my-github">My GitHub</a>
+					<p class="footer__year">2024</p>
+					<a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer__rsschool-logo"></a>
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>

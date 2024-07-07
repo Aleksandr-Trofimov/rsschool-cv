@@ -27,5 +27,8 @@ img {
 
 .header__subtitle {
 	margin: 0 auto;
+}
+
+.subtitle {
 	font-size: 1.75rem;
 }
