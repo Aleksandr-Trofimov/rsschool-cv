@@ -4,7 +4,7 @@
 }
 
 .left-column {
-	background-color: rgb(170, 255, 0);
+	background-color: #bdbdbd;
 	width: 30%;
 	padding: 0 50px;
 }
@@ -56,6 +56,7 @@
 }
 
 .education__subtitle {
+	font-size: 1.5rem;
 	margin-bottom: 0.625rem;
 }
 
@@ -65,7 +66,7 @@
 }
 
 .right-column {
-	background-color: #e07f1f;
+	background-color: #f5f5f5;
 	width: 70%;
 	padding: 0 50px;
 }

@@ -3,6 +3,8 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px 60px;
+	background-color: #212121;
+	color: #f5f5f5;
 }
 
 .footer__my-github {
