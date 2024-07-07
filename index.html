@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preload" href="fonts/roboto-v30-latin-300.woff2" as="font" crossorigin />
+		<link rel="preload" href="fonts/roboto-v30-latin-500.woff2" as="font" crossorigin />
+		<link rel="preload" href="fonts/roboto-v30-latin-500italic.woff2" as="font" crossorigin />
+		<link rel="preload" href="fonts/roboto-v30-latin-700.woff2" as="font" crossorigin />
+		<link rel="preload" href="fonts/roboto-v30-latin-regular.woff2" as="font" crossorigin />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>CV</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<nav class="navigation">
+					<div class="container navigation__container">
+						<ul class="navigation__list">
+							<li class="navigation__item">
+								<a href="#about" class="navigation__button navigation__button-about">About me</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#contacts" class="navigation__button navigation__button-contacts">Contacts</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#education" class="navigation__button navigation__button-education">Education</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#languages" class="navigation__button navigation__button-languages">Languages</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#skills" class="navigation__button navigation__button-skills">Skills</a>
+							</li>
+							<li class="navigation__item">
+								<a href="#example" class="navigation__button navigation__button-example">Code example</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="header__wrapper">
+					<div class="header__picture-wrapper">
+						<img src="image/Foto_for_cv.jpg" alt="My photo" class="header__picture" />
+					</div>
+					<div class="header__intro">
+						<h1 class="header__title">Trofimov Aleksandr</h1>
+						<h3 class="header__subtitle subtitle">Front-End developer</h3>
+					</div>
+				</div>
+			</header>
+			<main>
+				<div class="main__wrapper">
+					<div class="left-column">
+						<section id="contacts">
+							<h2 class="contacts__title section__title">Contacts</h2>
+							<ul class="contacts__list section__list">
+								<li class="contacts__item">
+									<p class="contacts__item-text contacts__mail"><a href="mailto:trofimov@alexandr.by" target="_blank">trofimov@alexandr.by</a></p>
+								</li>
+								<li class="contacts__item">
+									<p class="contacts__item-text contacts__github">
+										<a href="https://github.com/Aleksandr-Trofimov" target="_blank">github.com/Aleksandr-Trofimov</a>
+									</p>
+								</li>
+								<li class="contacts__item">
+									<p class="contacts__item-text contacts__telegram"><a href="https://t.me/Aleksand0159" target="_blank">t.me/Aleksand0159</a></p>
+								</li>
+							</ul>
+						</section>
+						<section id="education">
+							<h2 class="education__title section__title">Education</h2>
+							<h3 class="education__subtitle subtitle">University:</h3>
+							<p class="education__main">The Herzen State Pedagogical University of Russia Herzen University, teacher</p>
+							<h3 class="education__subtitle subtitle">Courses:</h3>
+							<ul class="education__courses-list section__list">
+								<li>
+									<p class="education__course">
+										<a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">RS Schools (stage0)</a>
+									</p>
+								</li>
+								<li>
+									<p class="education__course"><a href="https://rs.school/courses/javascript-ru" target="_blank">RS Schools (stage1)</a></p>
+								</li>
+								<li>
+									<p class="education__course"><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></p>
+								</li>
+							</ul>
+						</section>
+						<section id="languages">
+							<h2 class="languages__title section__title">Languages</h2>
+							<ul class="languages__list section__list">
+								<li><p class="languages__list-item">Russian (native)</p></li>
+								<li><p class="languages__list-item">English (B1)</p></li>
+							</ul>
+						</section>
+					</div>
+					<div class="right-column">
+						<section id="about">
+							<h2 class="about__title section__title">About me</h2>
+							<p class="about__description">
+								Hi, everyone! This is already my second attempt at the RS Schools course (stage 0) and I hope that this time I will have enough
+								strength and time to finish it and eventually become a front-end developer and a valuable team member. Over the past year, I have
+								learned a lot and I hope my knowledge will help me achieve my goal. And, of course, I will always be happy to help. Good luck and
+								perseverance to us! &#128522;
+							</p>
+						</section>
+						<section id="skills">
+							<h2 class="skills__title section__title">Skills</h2>
+							<ul class="skills__list section__list">
+								<li><p>HTML5</p></li>
+								<li><p>CSS3, SASS</p></li>
+								<li><p>JavaScript Basics</p></li>
+								<li><p>Git, GitHub</p></li>
+								<li><p>Figma</p></li>
+							</ul>
+						</section>
+						<section id="example">
+							<h2 class="example__title section__title">Code example</h2>
+							<p class="example__description">
+								Fake Binary: Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the
+								resulting string.
+							</p>
+							<div>
+								<pre>
+									<code>
+	function fakeBin(x) {
+	  let y = x.split("");
+	  for (let i = 0; i &lt; x.length; i += 1) {
+	    if (y[i] &lt; 5) {
+	 	 y[i] = 0;
+	    } else {
+	 	 y[i] = 1;
+	    }
+	  }
+	  let result = y.join("");
+	  return result;
+	}
+									</code>
+								</pre>
+							</div>
+						</section>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<div class="footer__wrapper">
+					<a href="https://github.com/Aleksandr-Trofimov" target="_blank" class="footer__my-github">My GitHub</a>
+					<p class="footer__year">2024</p>
+					<a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer__rsschool-logo"></a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
