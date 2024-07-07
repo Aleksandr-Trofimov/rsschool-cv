@@ -57,12 +57,13 @@
 								</li>
 							</ul>
 						</section>
-						<section class="languages"></section>
-						<h2 class="languages__title section__title">Languages</h2>
-						<ul class="languages__list section__list">
-							<li><p class="languages__list-item">Russian(native)</p></li>
-							<li><p lass="languages__list-item">English(B1)</p></li>
-						</ul>
+						<section class="languages">
+							<h2 class="languages__title section__title">Languages</h2>
+							<ul class="languages__list section__list">
+								<li><p class="languages__list-item">Russian(native)</p></li>
+								<li><p class="languages__list-item">English(B1)</p></li>
+							</ul>
+						</section>
 					</div>
 					<div class="right-column">
 						<section class="about">
@@ -94,16 +95,16 @@
 								<pre>
 									<code>
 	function fakeBin(x) {
-	 let y = x.split("");
-	 for (let i = 0; i < x.length; i += 1) {
-	  if (y[i] < 5) {
-	 	y[i] = 0;
-	  } else {
-	 	y[i] = 1;
+	  let y = x.split("");
+	  for (let i = 0; i &lt; x.length; i += 1) {
+	    if (y[i] &lt; 5) {
+	 	 y[i] = 0;
+	    } else {
+	 	 y[i] = 1;
+	    }
 	  }
-	 }
-	 let result = y.join("");
-	 return result;
+	  let result = y.join("");
+	  return result;
 	}
 									</code>
 								</pre>
