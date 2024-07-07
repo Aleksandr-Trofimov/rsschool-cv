@@ -5,6 +5,7 @@ html {
 	/* Чтобы убрать горизонтальную прокрутку из-за блока навигации */
 	position: relative;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 *,

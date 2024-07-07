@@ -1,3 +1,18 @@
+.navigation {
+	margin-bottom: 30px;
+}
+
+.navigation__container {
+	padding: 0;
+	min-width: 100%;
+}
+
+.navigation__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
 .header__wrapper {
 	display: flex;
 	align-items: center;
