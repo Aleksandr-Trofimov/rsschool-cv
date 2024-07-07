@@ -6,11 +6,13 @@
 .left-column {
 	background-color: #bdbdbd;
 	width: 30%;
-	padding: 0 50px;
+	padding: 0 3rem;
 }
 
 .section__title {
 	font-size: 2.375rem;
+	font-weight: 500;
+	font-style: italic;
 	margin-bottom: 0.75rem;
 }
 
@@ -43,6 +45,14 @@
 	min-height: 20px;
 }
 
+.contacts__item-text:hover {
+	color: #292929;
+}
+.contacts__item-text:active {
+	color: #212121;
+	font-weight: 700;
+}
+
 .contacts__mail::before {
 	background-image: url(../icons/Email_icon.svg);
 }
@@ -65,10 +75,18 @@
 	line-height: 1.25rem;
 }
 
+.education__course:hover {
+	color: #292929;
+}
+.education__course:active {
+	color: #212121;
+	font-weight: 700;
+}
+
 .right-column {
 	background-color: #f5f5f5;
 	width: 70%;
-	padding: 0 50px;
+	padding: 0 3rem;
 }
 
 .about__description {

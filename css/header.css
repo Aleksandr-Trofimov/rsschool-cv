@@ -18,6 +18,16 @@
 	line-height: 2.875rem;
 }
 
+.navigation__button:hover {
+	background-color: #292929;
+}
+
+.navigation__button:active {
+	background-color: #f57c00;
+	color: #212121;
+	font-weight: 700;
+}
+
 .header__wrapper {
 	display: flex;
 	align-items: center;
@@ -30,21 +40,22 @@
 	padding: 1.5rem 0;
 }
 
-img {
+.header__picture {
 	margin: 0 auto;
-	width: 300px;
+	width: 19rem;
 	border-radius: 2rem;
 }
 
 .header__intro {
 	width: 70%;
-	padding: 0 50px;
+	padding: 0 3rem;
 }
 
 .header__title {
 	font-size: 3rem;
+	font-weight: 700;
 	margin: 0 auto;
-	margin-bottom: 10px;
+	margin-bottom: 0.5rem;
 }
 
 .header__subtitle {
