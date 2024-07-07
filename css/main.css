@@ -6,10 +6,6 @@
 .left-column {
 	background-color: rgb(170, 255, 0);
 	width: 30%;
-	/* display: flex;
-	flex-direction: column; */
-	/* justify-content: center;
-	align-items: center; */
 	padding: 0 50px;
 }
 
@@ -48,15 +44,15 @@
 }
 
 .contacts__mail::before {
-	background-image: url(/icons/Email_icon.svg);
+	background-image: url(../icons/Email_icon.svg);
 }
 
 .contacts__github::before {
-	background-image: url(/icons/Github_icon.svg);
+	background-image: url(../icons/Github_icon.svg);
 }
 
 .contacts__telegram::before {
-	background-image: url(/icons/Telegram_icon.svg);
+	background-image: url(../icons/Telegram_icon.svg);
 }
 
 .education__subtitle {
